@@ -1,8 +1,10 @@
-# React + Vite
+# React + Vite Starter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Containing the following NPM libaries: <br />
+jwt-decode <br />
+react-hook-form <br />
+react-router-dom <br />
+react-spinners <br />
 
-Currently, two official plugins are available:
+Folder structure is already made, and basic router configuration is made aswell.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
