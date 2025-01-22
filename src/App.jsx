@@ -1,7 +1,6 @@
 import { useEffect } from "react"
 import { useLocation, useRoutes } from "react-router-dom"
-
-
+import Carousel from "./pages/carouselPage"
 function App() {
   const location = useLocation()
 
@@ -13,7 +12,7 @@ useEffect(() => {
   const routes = useRoutes([
     {
       path: '/',
-      element: <h1>HOMESITE</h1>
+      element: <Carousel />
     }
 
 
